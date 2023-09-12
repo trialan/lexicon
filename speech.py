@@ -38,13 +38,15 @@ def generate_podcast_file(transcript, filename):
         for j, speech_response in enumerate(speech_responses):
             temp_filename = f"audio_files/temp/{filename}_temp_{i}_{j}.wav"
             _save_speech(speech_response, temp_filename)
-            audio_data, sample_rate = sf.read(temp_filename)
-            all_audio_data.append(audio_data)
+            #audio_data, sample_rate = sf.read(temp_filename)
+            #all_audio_data.append(audio_data)
 
+    """
     final_audio_data = np.concatenate(all_audio_data)
     path = f'audio_files/{filename}.mp3'
     sf.write(path, final_audio_data, sample_rate)
     _add_guitar_at_start_and_end_of_podcast(path)
+    """
 
 
 def _add_guitar_at_start_and_end_of_podcast(path):
@@ -76,9 +78,3 @@ def _save_speech(speech, filename):
                 f.write(chunk)
 
 
-if __name__ == '__main__':
-    conversation = [
-        "Hola chico, como estas hoy?",
-        "Muy bien, y tu Felipe? Como te sientes?"
-    ]
-    generate_podcast_file(conversation, "sample_podcast")
