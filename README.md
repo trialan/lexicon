@@ -10,3 +10,10 @@ Translate the Lex Fridman podcast into any language and listen to it on your pho
 5. Finally just transfer the mp3 file to your phone using any sharing mechanism, I like to use AirDrop.
 
 N.B. You'll need API keys from [ElevenLabs](elevenlabs.io) for the voice and [DeepL](deepl.com) for the translation. They both have free tiers.
+
+## Audio Sample
+Example podacast with Walter Isaacson, in Spanish.
+<audio controls>
+  <source src="audio_files/final_walter_ES.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
