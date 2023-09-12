@@ -1,7 +1,7 @@
 # omnilex
 Translate the Lex Fridman podcast into any language and listen to it on your phone. 
 
-# How to use this
+## How to use this
 1. Go to the [transcripts archive on Lex's website](https://lexfridman.com/category/transcripts/)
 2. Pick a transcript and copy the URL, e.g. "https://lexfridman.com/walter-isaacson-transcript/"
 3. Then replace the url variable in podcast.py with your URL
