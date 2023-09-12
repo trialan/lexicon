@@ -14,9 +14,5 @@ N.B. You'll need API keys from [ElevenLabs](elevenlabs.io) for the voice and [De
 ## Audio Sample
 Example podacast with Walter Isaacson, in Spanish.
 
-[Listen to it here](audio_files/final_walter_ES.mp3)
+[Listen to it here.](https://github.com/trialan/omilex/raw/main/audio_files/walter_isaacson_spanish.mp3)
 
-<audio controls>
-  <source src="audio_files/walter_isaacson_spanish.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
