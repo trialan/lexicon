@@ -1,4 +1,4 @@
-# omnilex
+# Lex Fridman in any language
 Translate the Lex Fridman podcast into any language and listen to it on your phone. 
 
 # How to use this
