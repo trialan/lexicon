@@ -19,10 +19,10 @@ def get_transcript(url):
         if speaker == current_speaker:
             current_text += f" {text}"
         else:
-            append_to_transcript(formatted_transcript, current_speaker, current_text)
+            append_to_transcript(formatted_transcript, current_text)
             current_speaker = speaker
             current_text = text
-    append_to_transcript(formatted_transcript, current_speaker, current_text)
+    append_to_transcript(formatted_transcript, current_text)
     return formatted_transcript
 
 
@@ -42,8 +42,8 @@ def extract_speaker_and_text(div):
     return (speaker.text if speaker else None, text.text if text else "")
 
 
-def append_to_transcript(formatted_transcript, current_speaker, current_text):
-    formatted_transcript.append(f"{current_speaker}: {current_text.strip()}")
+def append_to_transcript(formatted_transcript, current_text):
+    formatted_transcript.append(f" {current_text.strip()}")
 
 
 if __name__ == '__main__':

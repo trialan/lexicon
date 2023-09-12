@@ -6,6 +6,6 @@ Translate the Lex Fridman podcast into any language and listen to it on your pho
 1. Go to the [transcripts archive on Lex's website](https://lexfridman.com/category/transcripts/)
 2. Pick a transcript and copy the URL, e.g. "https://lexfridman.com/walter-isaacson-transcript/"
 3. Then replace the url variable in podcast.py with your URL and run the script.
-4. Finally just transfer the mp3 file to your phone using any sharing mechanisme, I like to use AirDrop.
+4. Finally just transfer the mp3 file to your phone using any sharing mechanism, I like to use AirDrop.
 
 N.B. You'll need API keys from [ElevenLabs](elevenlabs.io) for the voice and [DeepL](deepl.com) for the translation. They both have free tiers.
