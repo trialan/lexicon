@@ -12,7 +12,5 @@ Translate the Lex Fridman podcast into any language and listen to it on your pho
 N.B. You'll need API keys from [ElevenLabs](elevenlabs.io) for the voice and [DeepL](deepl.com) for the translation. They both have free tiers.
 
 ## Audio Sample
-Example podacast with Walter Isaacson, in Spanish.
-
-[Listen to it here.](https://github.com/trialan/omilex/raw/main/audio_files/walter_isaacson_spanish.mp3)
+Example podacast with Walter Isaacson, in Spanish. [Listen to it here.](https://drive.google.com/file/d/1omRXAYKEzDJLFny1LQabSDPYJq5yQPCj/view?usp=sharing)
 
