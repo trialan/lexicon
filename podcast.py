@@ -1,6 +1,6 @@
-from omnilex.speech import generate_podcast_file
-from omnilex.transcripts import get_transcript
-from omnilex.translate import translate_to_spanish
+from lexicon.speech import generate_podcast_file
+from lexicon.transcripts import get_transcript
+from lexicon.translate import translate_to_spanish
 
 if __name__ == '__main__':
     url = "https://lexfridman.com/walter-isaacson-transcript/"

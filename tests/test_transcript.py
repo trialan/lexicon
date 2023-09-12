@@ -1,4 +1,4 @@
-from omnilex.transcripts import get_transcript
+from lexicon.transcripts import get_transcript
 
 def test_getting_full_transcript():
     url = "https://lexfridman.com/walter-isaacson-transcript/"
