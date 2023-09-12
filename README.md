@@ -17,6 +17,6 @@ Example podacast with Walter Isaacson, in Spanish.
 [Listen to it here](audio_files/final_walter_ES.mp3)
 
 <audio controls>
-  <source src="audio_files/final_walter_ES.mp3" type="audio/mp3">
+  <source src="audio_files/walter_isaacson_spanish.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
